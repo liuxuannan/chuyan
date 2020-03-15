@@ -3,7 +3,9 @@
     "pages/index/index",
     "pages/detail/detail",
     "pages/my/my",
-    "pages/design/design"
+    "pages/design/design",
+    "pages/my1/my1",
+    "pages/server/server"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -14,28 +16,37 @@
   "tabBar": {
     "color": "#000",
     "selectedColor": "#328eeb",
-    "list": [{
-      "pagePath": "pages/index/index",
-      "text": "首页",
-      "iconPath": "images/index.png",
-      "selectedIconPath": "images/index_blue.png"
-    },
-    
-    {
-          "pagePath": "pages/design/design",
-          "text": "搭配",
-          "iconPath": "images/design.png",
-          "selectedIconPath": "images/design_blue.png"
-
-    },
-
-
-    {
-      "pagePath": "pages/my/my",
-      "text": "我的",
-      "iconPath": "images/my.png",
-      "selectedIconPath": "images/my_blue.png"
-    }
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/index_blue.png"
+      },
+      {
+        "pagePath": "pages/design/design",
+        "text": "搭配",
+        "iconPath": "images/design.png",
+        "selectedIconPath": "images/design_blue.png"
+      },
+      {
+        "pagePath": "pages/my1/my1",
+        "text": "设置偏好",
+        "iconPath": "images/my.png",
+        "selectedIconPath": "images/my_blue.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "images/my.png",
+        "selectedIconPath": "images/my_blue.png"
+      },
+      {
+        "pagePath": "pages/server/server",
+        "text": "上传图片",
+        "iconPath": "images/my.png",
+        "selectedIconPath": "images/my_blue.png"
+      }
     ]
   },
   "sitemapLocation": "sitemap.json"

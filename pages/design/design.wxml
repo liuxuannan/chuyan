@@ -1,2 +1,14 @@
 <!--pages/design/design.wxml-->
-<text>pages/design/design.wxml</text>
+
+<view class="container">
+<view class='title'>智能搭配</view>
+  <view class='selection'>
+    <image src='{{tempFilePaths}}' class='img' mode="aspectFit"></image>
+    <view class='btns'>
+      <button bindtap='chooseImage'>获取图片</button>
+      <button bindtap='identifyImage'>搭配</button>
+    </view>
+  </view>
+
+ 
+</view>

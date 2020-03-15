@@ -1,0 +1,33 @@
+<!--pages/my1/my1.wxml-->
+<!-- 用户个人穿搭偏好信息 -->
+<view id="userPreference">
+    <view class='title'>完善用户穿衣信息</view>
+      <view>请勾选您的日常搭衣风格</view>
+      <view> 
+      <checkbox-group bindchange='checkboxChange'>
+        <view wx:for='{{checkboxItems}}'wx:key='item{{index}}'>
+        <checkbox value='{{item.value}}'checked='{{item.checked}}'/>{{item.name}}
+        </view>
+      </checkbox-group>
+      <swiper >
+        <swiper-item>
+          <view class='swiper-item'>测试题1</view>
+        </swiper-item>
+        <swiper-item>
+          <view class='swiper-item'>测试题2</view>
+        </swiper-item>
+          <swiper-item>
+          <view class='swiper-item'>测试题3</view>
+        </swiper-item>
+      </swiper>
+      <radio-group bindchange='radioChange'>
+    <view wx:for='{{radioItems}}' wx:key='item{{index}}'>
+      <radio value='{{item.value}}' checked='{{item.checked}}'/>{{item.name}}
+    </view>
+  </radio-group>
+  </view>
+  <view>'测试：该用户喜欢{{perference}}风格的衣服'</view>
+  <view>
+    <button bindtap="btnTap1">完成</button>
+  </view>
+</view>

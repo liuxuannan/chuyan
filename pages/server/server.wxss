@@ -1,0 +1,4 @@
+/* pages/server/server.wxss */
+button{
+  margin:15rpx;
+}

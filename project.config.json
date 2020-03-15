@@ -14,8 +14,8 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.9.1",
-	"appid": "wxf6712e581c88fc87",
-	"projectname": "newsDemo",
+	"appid": "touristappid",
+	"projectname": "chuyan1",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
